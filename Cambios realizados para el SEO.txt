@@ -1,0 +1,35 @@
+En el Index se agrego el titulo(Chelsea | Sitio Web | Inicio),
+ Keywords(Chelsea, Havertz, Mount, Sterling) y una descripcion que dice
+(Todo lo que tienes que saber sobre la actualidad del uno de los equi
+pos mas grandes del mundo, sus jugadores destacados, sus ultimos 
+fichajes, conferencias de prensa y mucho mas.). En cuanto a los encabezados
+se usaron h1, y h2 principalmente para los titulares de las noticias.
+
+En el Fixture se agrego el titulo (Chelsea | Sitio Web | Fixture), las keywords
+(Chelsea, Manchester, Liverpool, Tabla de Posiciones), le descripcion(
+Todos los partidos del mejor equipo de londres en la temporada
+, ademas de la tabla de posiciones de la premier League actual.) y encabezados
+como el h1 en fixture y h2 en los meses.
+
+En la galeria se agrego el titulo (Chelsea | Sitio Web | Galeria), keywords(
+gol del mes, Galeria) y la descripcion(Revive los mejores momentos en la historia
+ del club con fotos iconicas y los mejores goles de la temporada.) y en los 
+encabezados se usaron h1 para el gol del mes y h2 para la seccion de la galeria.
+
+En la historia se agrego el titulo (Chelsea | Sitio Web | Historia), las
+keywords(Champions, Abramovich, Manchester City,Bayern de Munich), la descripcion
+(Revive la historia del club, desde su fundacion hasta la actualidad viendo todos
+ los titulos de uno de los clubes mas grandes del mundo y de inglaterra.) y los
+encabezados h1 para la seccion de historia, h2 y h3 para cada division en la historia
+del club.
+
+En el equipo se agrego el titulo (Chelsea | Sitio Web | Equipo), las keywords
+(Sterling, Havertz, Kante, Thiago Silva), la descripcion (Conoce a todos los jugadores
+ del chelsea con toda la informacion que necesitas, ademas podras dejar tu opinion
+ sobre tu jugador favorito y sus mejores cualidades.) y los encabezados h1 para el principal
+,h2 para cada posicion y h3 para los nombres de los jugadores.
+
+En el contacto se agrego el titulo (Chelsea | Sitio Web | Contacto), las keywords (
+formulario, Comentarios), la descripcion (Si tienes algun inconveniente con la pagina
+ o alguna recomendacion para ayudarnos a mejorarla, dejanos tu opinion.) y en los encabezados
+solo se utilizo un h1 para el encabezado principal de la pagina.
