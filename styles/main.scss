@@ -634,7 +634,7 @@ input:valid{
         }
     }
     .contactbg{
-        background-color:#001ac06c ;
+        background-color:#cececec0 ;
         border-radius: 15px;
         img{
             margin-block: 20px;
@@ -995,7 +995,7 @@ footer{
     
     /* Team end */
     
-    /* Contact */
+    /* Contact begin*/
     .contact{
         width: 100vh;
         height: 1100px;
@@ -1025,10 +1025,9 @@ footer{
         border-radius: 10px;
         margin: 15px 5px 0px 5px;
     }
-    
-      
-    
-    /*  */
+    /* Contact end */
+
+    /* Header begin */
     header{
         flex-direction: column;
         justify-content: center;
@@ -1042,6 +1041,7 @@ footer{
             }
         } 
     }
+    /* Header end */
     
     /* Nav */
     .navbar{
@@ -1069,6 +1069,7 @@ footer{
     }
 
     @media (min-width:561px) and (max-width:1300px) {
+        /* Index */
         .news div{
             display: flex;
             flex-direction: column;
@@ -1111,6 +1112,9 @@ footer{
                 gap: 15px;
             }
         }
+        /* Index end */
+
+        /* Fixture begin */
         .fixture__background{
             .mes{
                 margin-left: 40%;
@@ -1130,29 +1134,9 @@ footer{
                 }
             }
         }
-        .galery__background{
-            height: 850px;
-            .margins{
-                margin:auto;
-            }
-        }
-        .galery1 img{
-            width: 32%;
-        }
-        .galery2 img{
-            &:first-child{
-                width: 60%;
-            }
-            &:last-child{
-                width: 40%;
-            }
-        }
-        .galery3 img{
-            width: 32%;
-        }
-        .galery4 img{
-            width: 32%;
-        }
+        /* Fixture end */
+
+        /* History begin */
         .history__background {
             .history__images img{
             width: 500px;
@@ -1161,6 +1145,9 @@ footer{
             width: auto;
         }
         }
+        /* History end */
+
+        /* Contact begin */
         .form {
             margin: 0px;
             margin-top: 15px;
@@ -1196,4 +1183,155 @@ footer{
             border-radius: 10px;
             margin: 15px 5px 0px 5px;
         }
+        /* Contact end */
+
+        /* Galery begin */
+        .flex{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        .galery__background{
+            width: 100%;
+            height: 100%;
+            div{
+                margin-bottom: 10px;
+                .iframe{
+                width: 470px;
+                height: 300px;
+            }
+            } 
+        }
+        .margins{
+            margin: auto;
+        }
+        .galery{
+            width: 100%;
+        }
+        .galery1{
+            gap: 3px;
+        }
+        .galery1 img{
+            width: 30%;
+            justify-content: flex-start;
+        }
+        .galery2{
+            gap: 3px;
+        }
+        .galery2 img:first-child{
+            width: 60%;
+            order: 1;
+        }
+        .galery2 img:last-child{
+            width: 30%;
+        }
+        .galery3{
+            gap: 3px;
+        }
+        .galery3 img{
+            width: 30%;
+        }
+        .galery4{
+            gap: 3px;
+        }
+        .galery4 img{
+            width: 30%;
+        }
+        /* Galery end */
+
+        /* Team begin */
+        .team__background, .team__background2{
+            width: 100%;
+            margin-top: 35px;
+            padding-bottom: 105px;
+        }
+        .players{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 70px;
+            div{
+                width: 170px;
+                height: 170px;
+                margin-left: 5px;
+                .cardteam{
+                    margin-bottom: 15px;
+                    margin-left: 0px;
+                    img{
+                        width: 100%;
+                    } 
+                    .card-desc{
+                        display: none;
+                    }
+                }
+                h3 {
+                    margin-top: 15px;
+                    color: white;
+                    background-color: #001589b4;
+                    width: 150px;
+                    text-align: center;
+                    border-radius: 35px;
+                    margin-left: 0px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .form{
+            margin: auto;
+            margin-top: 20px;
+            width: 95vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .caja{
+                padding: 5px;
+                height: 570px;
+            }
+        }
+    
+    /* Team End */
+
+    /* Footer begin*/
+    .container1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
     }
+    .icon{
+        order: -1;
+    }
+    footer address{
+        text-align: center;
+    }
+    .copy{
+        padding: 5px;
+    }
+    /* Footer End */
+    }
+
+    @media (min-width:770px) and (max-width:1300px){
+        /* Contact begin */
+        .contact{
+            display: flex;
+            flex-direction: column;
+            .contactbg1{
+                width: 33%;
+                border-radius: 15px;
+                position: absolute;
+                bottom: 15px;
+                left: 50px;
+            }
+            .contactbg3{
+                width: 33%;
+                position: absolute;
+                bottom: 15px;
+                right: 50px;
+                border-radius: 15px;
+            }
+        }
+        /* Contact end */
+    }
+    
