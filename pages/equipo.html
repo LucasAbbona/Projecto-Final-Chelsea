@@ -1,46 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chelsea | Sitio Web | Equipo</title>
-    <link rel="shortcut icon" href="http://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/58.png"/>
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="shortcut icon" href="http://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/58.png">
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <meta name="keywords" content="Sterling, Havertz, Kante, Thiago Silva">
-    <meta name="description" content="Conoce a todos los jugadores del chelsea con toda la informacion que necesitas, ademas podras dejar tu opinion sobre tu jugador favorito y sus mejores cualidades.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <meta name="keywords" content="Chelsea, Havertz, Mount, Sterling">
+    <meta name="description" content="Todo lo que tienes que saber sobre la actualidad del uno de los equipos mas grandes del mundo, sus jugadores destacados, sus ultimos fichajes, conferencias de prensa y mucho mas.">
 </head>
 <body>
-<header>
-    <div class="logo">
-        <a href="../index.html"><img class="img-fluid" src="../img/header.png" alt="Logo con nombre"/></a>
-    </div>
-</header>
-<nav class="position-sticky navbar navbar-expand-lg">
-  <div class="container-fluid justify-content-center">
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link fs-5 "  href="../index.html">Inicio</a>
-        <a class="nav-link fs-5 mx-3" href="./fixture.html">Fixture</a>
-        <a class="nav-link fs-5 mx-3" href="./galeria.html">Galeria</a>
-        <a class="nav-link fs-5 mx-3" href="./historia.html">Historia</a>
-        <a class="nav-link fs-5 mx-3 active" aria-current="page" href="./equipo.html">Equipo</a>
-        <a class="nav-link fs-5 mx-3" href="./contacto.html">Contacto</a>
-      </div>
-    </div>
-  </div>
-</nav>
+    <nav class="position-sticky navbar navbar-expand-lg ">
+        <div class="container-fluid justify-content-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link fs-5 Logo" href="#"><img src="../img/Chelsea_FC.svg.png" width="80px" alt=""></a>
+                <a class="nav-link fs-5 " href="../index.html">Inicio</a>
+                <a class="nav-link fs-5 mx-3" href="./fixture.html">Fixture</a>
+                <a class="nav-link fs-5 mx-3" href="./media.html">Media</a>
+                <a class="nav-link fs-5 mx-3 Activo" href="#">Equipo</a>
+                <a class="nav-link fs-5 mx-3" href="./Tickets.html">Tickets</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <div>
-    <h1 data-aos="fade-right" class="division div2">Equipo temporada 2022/23</h1>
-    <section data-aos="fade-right" class="team__background">
-        <h2 data-aos="fade-up">Delanteros</h2>
-        <div class="players">
+    <h1 data-aos="fade-right" class="TeamTitle">Equipo temporada 2022/23</h1>
+        <div class="FiltersContainer" data-aos="fade-right">
+          <button class="TeamFilter active" id="Men">Men</button>
+          <button class="TeamFilter" id="Women">Women</button>
+        </div>
+        <div id="PlayersContainer" class="PlayersContainer" data-aos="fade-up">
+
+        </div>
+        <!-- <div class="players">
             <div>
               <div class="cardteam">
                 <img data-aos="fade-up" src="../img/galery/players/delanteros/sterling.png" alt="Foto Sterling"/>
@@ -455,79 +456,38 @@
           <h3 data-aos="fade-up">Marcus Bettinelli</h3>
         </div>
       </div>
-    </div>
-    <div data-aos="fade-up" class="form">
-      <form class="caja" action="">
-        <div class="d-flex flex-column justify-content-center">
-          <legend class="text-center fw-bold fs-3">Comentanos tu jugador favorito y porque</legend>
-          <div>
-            <p>Selecciona jugador</p>
-            <select class="field" name="" id="Nombre" required>
-              <option value="" disabled selected>Seleccionar Jugador</option>
-              <option value="">Raheem Sterling</option>
-              <option value="">Christian Pulisic</option>
-              <option value="">Kai Havertz</option>
-              <option value="">Ngolo Kante</option>
-              <option value="">Mason Mount</option>
-              <option value="">Hakim Ziyech</option>
-              <option value="">Reece James</option>
-              <option value="">Timo Werner</option>
-              <option value="">Edouard Mendy</option>
-              <option value="">Cesar Azpilicueta</option>
-              <option value="">Kepa Arrizabalaga</option>
-              <option value="">Thiago Silva</option>
-              <option value="">Marcos Alonso</option>
-              <option value="">Ben Chilwell</option>
-              <option value="">Conor Gallagher</option>
-              <option value="">Jorginho</option>
-              <option value="">Ruben Loftus-Cheek</option>
-              <option value="">Mateo Kovacic</option>
-              <option value="">Callum Hudson-Odoi</option>
-              <option value="">Armando Broja</option>
-              <option value="">Trevor Chalobah</option>
-              <option value="">Kenedy</option>
-              <option value="">Malang Sarr</option>
-              <option value="">Ross Barkley</option>
-              <option value="">Levi Cowill</option>
-              <option value="">Marcus Bettinelli</option>
-              <option value="">Michy Batshuayi</option>
-              <option value="">Billy Gilmour</option>
-              <option value="">Emerson Palmieri</option>
-              <option value="">Ethan Ampadu</option>
-              <option value="">Harvey Vale</option>
-              <option value="">Tino Anjorin</option>
-              <option value="">Kalidou Koulibaly</option>
-            </select>
-          </div>
-          <div>
-            <p>E-mail</p>
-            <input class="field" placeholder="E-mail" type="email" required />
-          </div>
-          <div>
-            <p>¿Por que es tu favorito?</p>
-            <textarea class="field" rows="7" required></textarea>
-          </div>
-          <p class="btn-center">
-            <button class="boton" type="submit">Enviar</button>
-          </p>
-          
-        </div>
-      </form>
-    </div>
+    </div> -->
+    
     <footer class="container1">
-      <address class="lh-sm">Chelsea Football Club<br>Stamford Bridge <br>Fulham Road<br>London<br>SW6 1HS</address>
-      <div class="icon">
-          <a target="_blank" href="https://www.facebook.com/ChelseaFC/"><i class="bi bi-facebook"></i></a>
-      <a target="_blank" href="https://twitter.com/chelseafc"><i class="bi bi-twitter"></i></a>
-      <a target="_blank" href="https://www.instagram.com/chelseafc/"><i class="bi bi-instagram"></i></a>
-      <a target="_blank" href="https://www.youtube.com/chelseafc"><i class="bi bi-youtube"></i></a>
+      <div class="FooterImg"><img src="../img/Chelsea_FC.svg.png" width="80px" alt=""></div>
+      <div class="FooterLinks">
+          <div>
+              <a href="./fixture.html">Fixture</a>
+              <a href="./media.html">Media</a>
+              <a href="#">Equipo</a>
+              <a href="./Tickets.html">Tickets</a>
+              <a href="#">Contact</a>
+          </div>
+          <div class="Copy"><p>© Copyright 2022 Lucas Abbona.</p></div>
       </div>
-      <p class="copy">© 2022 Chelsea News.Reservados todos los derechos. Ninguna parte de este sitio puede ser reproducida sin nuestro permiso por escrito.</p>
+      <div class="FooterMedia">
+          <div class="MediaBtns">
+              <a target="_blank" href="https://www.facebook.com/ChelseaFC/"><i class="bi bi-facebook"></i></a>
+              <a target="_blank" href="https://twitter.com/chelseafc"><i class="bi bi-twitter"></i></a>
+              <a target="_blank" href="https://www.instagram.com/chelseafc/"><i class="bi bi-instagram"></i></a>
+              <a target="_blank" href="https://www.youtube.com/chelseafc"><i class="bi bi-youtube"></i></a>
+          </div>
+          <div class="FooterContent">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          </div>
+      </div>
+      <div class="FooterLine"></div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script src="../scripts/equipo.js"></script>
 </body>
 </html>

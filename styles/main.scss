@@ -21,56 +21,6 @@ $redes:(
 body{
     overflow-x: hidden;
 }
-/* Header begin */
-header{
-    height: 200px;
-    background-image: url(https://hoypyspace.sfo2.cdn.digitaloceanspaces.com/imagenes/Stamford_Bridge_Clear_Skies.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    &:hover{
-        animation-name: heahov;
-        animation-iteration-count:infinite;
-        animation-timing-function: ease;
-        animation-duration: 10s;
-        animation-fill-mode: backwards;
-        animation-play-state: running;
-    }
-    .logo{
-    background-color: #cececec0;
-    padding: 7px;
-    border-radius: 5px;
-    width: 600px;
-    }
-    @keyframes heahov{
-    25% {
-        background-image: url(https://media.premiumtimesng.com/wp-content/files/2022/05/chealsea.jpg) ;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    50% {
-        background-image: url(../img/QZBBPT5RZQWTGPD2KWG7H3XRYI.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    75% {
-        background-image: url(https://static.dw.com/image/61716414_101.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
-}
-
-/* Header end */
-
 /* Menu begin */
 .navbar{
     position:sticky;
@@ -78,9 +28,14 @@ header{
     z-index: 200;
     width: 100%;
     background-color: #a5a5a5;
+    position: relative;
     .navbar-nav{
     justify-content: center;
     align-items: center;
+    .Logo{
+        position: absolute;
+        left: 20px;
+    }
 }
 }
 /* Menu end */
